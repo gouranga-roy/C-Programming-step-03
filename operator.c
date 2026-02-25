@@ -66,7 +66,7 @@ int main ()
         printf("%d X %d = %d\n", n, i, m);
     }
     */
-
+/*
     int n, i;
 
     for(n = 1; n <= 20; n = n + 1) {
@@ -75,6 +75,116 @@ int main ()
         }
         printf("\n");
     }
+*/
+
+// 1-20 print Namota
+/*
+int n,i,j;
+for(n = 1; n <= 20; n++) {
+   j = 1;
+    for(i = 1; i <= 10; i++) {
+        printf("%d X %d = %d\n", n, i , n+j);
+    }
+
+}
+
+*/
+/*
+int n,i;
+n = 5;
+for(i = 1; i <= 10; i++) {
+    printf("%d x %d = %d\n",i, n, i*n);
+}
+*/
+
+/*
+int m, n;
+    int i;
+
+    n = 5;
+    m = 0;
+    for(i = 1; i <= 10; i = i+1) {
+        m = m + n;
+        printf("%d X %d = %d\n", n, i, m);
+    }
+    */
+
+    /*
+int n,i,j;
+
+for(n = 1; n <= 20; n++) {
+   j = 0;
+
+    for(i = 1; i <= 10; i++) {
+        j = j + n;
+        printf("%d X %d = %d\n", n, i , j);
+    }
+
+}
+*/
+/*
+int a,b,c;
+
+for(a = 1; a <= 3; a++) {
+    for(b =1; b <= 3; b++) {
+        for(c = 1; c <=3; c++ ) {
+            printf("%d %d %d\n", a, b, c);
+        }
+    }
+}
+*/
+/*
+int i, n, m;
+
+n = 2;
+m = 0;
+
+for(i = 1; i <= 10; i++) {
+     m = m + n;
+    printf("%d X %d = %d\n", n , i, m);
+}
+*/
+
+/*
+int n, i, m;
+
+for(n = 1; n <= 20; n++) {
+    m = 0;
+    for(i = 1; i <= 10; i++) {
+        m += n;
+        printf("%d X %d = %d\n", n, i, m);
+    }
+    printf("\n");
+
+    */
+    /*
+    int a, b, c;
+
+    for(a = 1; a <= 3; a++) {
+        for(b = 1; b <= 3; b++) {
+            if(b != a) {
+                for(c = 1; c <= 3; c++) {
+                        if(c != b && c != a) {
+                            printf("%d, %d, %d\n", a, b, c);
+                        }
+                }
+            }
+        }
+    }
+    */
+
+   int a, b, c;
+
+    for(a = 1; a <= 3; a++) {
+        for(b = 1; b <= 3; b++) {
+                for(c = 1; c <= 3; c++) {
+                        if(b != c && c != a && a != b) {
+                            printf("%d, %d, %d\n", a, b, c);
+                        }
+                }
+        }
+    }
+
 
    return 0;
 }
